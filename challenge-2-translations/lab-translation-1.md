@@ -44,17 +44,17 @@ In this lab, you learn how to perform the following tasks:
     `gcloud compute instances create my-custom-vm --zone=us-west1-b --machine-type=custom-6-32768 --subnet=default --image=debian-9-stretch-v20200805 --image-project=debian-cloud --boot-disk-size=10GB`
 2. #### Connect via SSH to your custom VM
 
-    1. Connecting through SSH
+    1. Connecting through SSH  
         `gcloud compute ssh my-custom-vm --zone us-west1-b`
-    2. Seeing information about unused and used memory and swap space on custom VM:
+    2. Seeing information about unused and used memory and swap space on custom VM:  
         `free`
-    3. Seeing details about the RAM installed on VM:
+    3. Seeing details about the RAM installed on VM:  
         `sudo dmidecode -t 17`
-    4. Verifying the number of processors:
+    4. Verifying the number of processors:  
         `nproc`
-    5. Seeing details about the CPUs installed on VM:
+    5. Seeing details about the CPUs installed on VM:  
         `lscpu`
-    6. Stopping SSH connection:
+    6. Stopping SSH connection:  
         `exit`
 
 ---
